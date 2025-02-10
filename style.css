@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#heading-name1 {
+#heading1 {
     background-color: purple;
     text-align: center;
 }
@@ -15,7 +15,23 @@ body {
     font-family: Arial;
 }
 
+/* Apply styles to the heading */
 #heading1 {
     background-color: purple;
     text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+/* Apply styles to Blog Post Title */
+#heading2 {
+    background-color: pink;
+    text-align: center;
+    /*padding: 10px;*/
+}
+
+#heading3 {
+    background-color: palevioletred;
+    text-align: center;
+    /*padding: 10px;*/
 }
