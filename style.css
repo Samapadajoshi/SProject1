@@ -4,33 +4,18 @@
     box-sizing: border-box;
 }
 
-#header {
-    background-color: purple;
-    /* Purple background */
-    text-align: center;
-    padding: 20px;
-}
-
-/* Apply styles to Blog Post Title */
-#heading2 {
-    background-color: white;
-    text-align: left;
-    /*padding: 10px;*/
-}
-
-#heading3 {
-    background-color: white;
-    text-align: left;
-    /*padding: 10px;*/
-}
-
-.unordered-list {
+.parent {
+    padding: 40px;
     display: flex;
-    gap: 30px;
-    list-style: none;
-    padding: 0;
 }
 
-.unordered-list li {
-    font-size: medium;
+.container {
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
 }
